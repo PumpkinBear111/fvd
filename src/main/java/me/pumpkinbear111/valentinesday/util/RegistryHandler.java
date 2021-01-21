@@ -6,7 +6,9 @@ import me.pumpkinbear111.valentinesday.blocks.balloon_string;
 import me.pumpkinbear111.valentinesday.blocks.empty_vase;
 import me.pumpkinbear111.valentinesday.items.ItemBase;
 import me.pumpkinbear111.valentinesday.items.food.Chocolate;
+import me.pumpkinbear111.valentinesday.items.food.blue_lollypop;
 import me.pumpkinbear111.valentinesday.items.food.chocobox;
+import me.pumpkinbear111.valentinesday.items.food.red_lollypop;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
@@ -25,6 +27,8 @@ public class RegistryHandler {
     public static final RegistryObject<Item> BOUQUET = ITEMS.register("bouquet", ItemBase::new);
     public static final RegistryObject<Item> CHOCOLATE = ITEMS.register("chocolate", Chocolate::new);
     public static final RegistryObject<Item> CHOCO_BOX = ITEMS.register("choco_box", chocobox::new);
+    public static final RegistryObject<Item> RED_LOLLYPOP = ITEMS.register("red_lollypop", red_lollypop::new);
+    public static final RegistryObject<Item> BLUE_LOLLYPOP = ITEMS.register("blue_lollypop", blue_lollypop::new);
 
     // Blocks
     public static final RegistryObject<Block> EMPTY_VASE = BLOCKS.register("empty_vase", empty_vase::new);
