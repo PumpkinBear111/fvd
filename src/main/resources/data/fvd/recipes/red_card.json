@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ppa",
+    "ppr",
+    "ppa"
+  ],
+  "key":
+  {
+    "r":
+    {
+      "item": "fvd:red_lollypop"
+    },
+    "p":
+    {
+      "item": "minecraft:paper"
+    },
+    "a":
+    {
+      "item": "minecraft:air"
+    }
+  },
+  "result":
+  {
+    "item": "fvd:red_card",
+    "count": 1
+  }
+}
