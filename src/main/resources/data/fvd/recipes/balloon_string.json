@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "asa",
+    "asa",
+    "asa"
+  ],
+  "key":
+  {
+    "a":
+    {
+      "item": "minecraft:air"
+    },
+    "s":
+    {
+      "item": "minecraft:string"
+    }
+  },
+  "result":
+  {
+    "item": "fvd:balloon_string_item",
+    "count": 1
+  }
+}
