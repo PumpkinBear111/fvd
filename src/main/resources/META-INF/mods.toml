@@ -1,0 +1,17 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="To be determined - TBD"
+#issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+# The modid of the mod
+modId="fvd" #mandatory
+version="16.4-1.0.0 indev" #mandatory
+displayName="ValentinesDay" #mandatory
+#updateJSONURL="http://myurl.me/" #optional
+displayURL="youtube.com/c/pumpkinbear111" #optional
+#logoFile="ValentinesDay.png" #optional
+credits="Thanks to Technovision's now deleted forge tutorials." #optional
+authors="PumpkinBear111" #optional
+description='''
+to be added later...
+'''

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ppp",
+    "ccc",
+    "ppp"
+  ],
+  "key":
+  {
+    "c":
+    {
+      "item": "fvd:chocolate"
+    },
+    "p":
+    {
+      "item": "minecraft:paper"
+    }
+  },
+  "result":
+  {
+    "item": "fvd:choco_box",
+    "count": 1
+  }
+}

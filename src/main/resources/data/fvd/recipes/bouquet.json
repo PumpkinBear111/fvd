@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "trt",
+    "prp",
+    "prp"
+  ],
+  "key":
+  {
+    "p":
+    {
+      "item": "minecraft:paper"
+    },
+    "r":
+    {
+      "item": "minecraft:red_tulip"
+    },
+    "t":
+    {
+      "item": "minecraft:pink_tulip"
+    }
+  },
+  "result":
+  {
+    "item": "fvd:bouquet",
+    "count": 1
+  }
+}

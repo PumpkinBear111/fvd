@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "sps",
+    "pmp",
+    "sps"
+  ],
+  "key":
+  {
+    "p":
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    "m":
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    "s":
+    {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result":
+  {
+    "item": "fvd:chocolate",
+    "count": 3
+  }
+}

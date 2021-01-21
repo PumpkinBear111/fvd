@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "gxg",
+    "gxg",
+    "xgx"
+  ],
+  "key":
+  {
+    "g":
+    {
+      "item": "minecraft:glass"
+    }
+  },
+  "result":
+  {
+    "item": "fvd:empty_vace_item",
+    "count": 1
+  }
+}
