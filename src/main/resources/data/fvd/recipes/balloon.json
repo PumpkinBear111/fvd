@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "ppp",
+    "pap",
+    "psp"
+  ],
+  "key":
+  {
+    "p":
+    {
+      "item": "minecraft:pink_wool"
+    },
+    "a":
+    {
+      "item": "minecraft:air"
+    },
+    "s":
+    {
+      "item": "minecraft:string"
+    }
+  },
+  "result":
+  {
+    "item": "fvd:balloon_item",
+    "count": 1
+  }
+}

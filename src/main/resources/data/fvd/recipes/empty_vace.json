@@ -11,6 +11,10 @@
     "g":
     {
       "item": "minecraft:glass"
+    },
+    "x":
+    {
+      "item": "minecraft:air"
     }
   },
   "result":
