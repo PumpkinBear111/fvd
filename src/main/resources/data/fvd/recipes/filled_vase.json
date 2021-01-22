@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "fvd:bouquet"
+    },
+    {
+      "item": "fvd:empty_vase_item"
+    }
+  ],
+  "result":
+  {
+    "item": "fvd:filled_vase_item",
+    "count": 1
+  }
+}

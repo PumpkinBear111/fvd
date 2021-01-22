@@ -43,6 +43,7 @@ public class ValentinesDay {
 
     private void doClientStuff(final FMLClientSetupEvent event) {
         RenderTypeLookup.setRenderLayer(RegistryHandler.EMPTY_VASE.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(RegistryHandler.FILLED_VASE.get(), RenderType.getCutout());
     }
 
 }

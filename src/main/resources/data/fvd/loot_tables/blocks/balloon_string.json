@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "fvd:balloon_item"
+          "name": "fvd:balloon_string_item"
         }
       ]
     }

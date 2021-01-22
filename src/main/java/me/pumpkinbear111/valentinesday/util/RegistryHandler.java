@@ -1,9 +1,6 @@
 package me.pumpkinbear111.valentinesday.util;
 
-import me.pumpkinbear111.valentinesday.blocks.BlockItemBase;
-import me.pumpkinbear111.valentinesday.blocks.balloon;
-import me.pumpkinbear111.valentinesday.blocks.balloon_string;
-import me.pumpkinbear111.valentinesday.blocks.empty_vase;
+import me.pumpkinbear111.valentinesday.blocks.*;
 import me.pumpkinbear111.valentinesday.items.ItemBase;
 import me.pumpkinbear111.valentinesday.items.food.*;
 import net.minecraft.block.Block;
@@ -31,6 +28,7 @@ public class RegistryHandler {
 
     // Blocks
     public static final RegistryObject<Block> EMPTY_VASE = BLOCKS.register("empty_vase", empty_vase::new);
+    public static final RegistryObject<Block> FILLED_VASE = BLOCKS.register("filled_vase", filled_vase::new);
     public static final RegistryObject<Block> BALLOON =  BLOCKS.register("balloon", balloon::new);
     public static final RegistryObject<Block> BALLOON_STRING = BLOCKS.register("balloon_string", balloon_string::new);
 
@@ -38,6 +36,7 @@ public class RegistryHandler {
     public static final RegistryObject<Item> EMPTY_VASE_ITEM = ITEMS.register("empty_vase_item", () -> new BlockItemBase(EMPTY_VASE.get()));
     public static final RegistryObject<Item> BALLOON_ITEM = ITEMS.register("balloon_item", () -> new BlockItemBase(BALLOON.get()));
     public static final RegistryObject<Item> BALLOON_STRING_ITEM = ITEMS.register("balloon_string_item", () -> new BlockItemBase(BALLOON_STRING.get()));
+    public static final RegistryObject<Item> FILLED_VASE_ITEM = ITEMS.register("filled_vase_item", () -> new BlockItemBase(FILLED_VASE.get()));
 
     public static void init() {
 

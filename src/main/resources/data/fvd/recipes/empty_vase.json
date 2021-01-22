@@ -2,24 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "pattern":
   [
-    "gxg",
-    "gxg",
-    "xgx"
+    "g g",
+    "g g",
+    "ggg"
   ],
   "key":
   {
     "g":
     {
       "item": "minecraft:glass"
-    },
-    "x":
-    {
-      "item": "minecraft:air"
     }
   },
   "result":
   {
-    "item": "fvd:empty_vace_item",
+    "item": "fvd:empty_vase_item",
     "count": 1
   }
 }
