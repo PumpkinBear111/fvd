@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "fvd:block/balloon" }
+    "facing=north": { "model": "fvd:block/balloon", "y": 0},
+    "facing=south": { "model": "fvd:block/balloon", "y": 180 },
+    "facing=west":  { "model": "fvd:block/balloon", "y": 270 },
+    "facing=east":  { "model": "fvd:block/balloon", "y": 90 }
   }
 }

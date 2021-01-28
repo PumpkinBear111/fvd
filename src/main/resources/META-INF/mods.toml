@@ -1,17 +1,26 @@
-modLoader="javafml" #mandatory
-loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-license="To be determined - TBD"
-#issueTrackerURL="http://my.issue.tracker/" #optional
-[[mods]] #mandatory
-# The modid of the mod
-modId="fvd" #mandatory
-version="16.4-1.0.0 indev" #mandatory
-displayName="ValentinesDay" #mandatory
-#updateJSONURL="http://myurl.me/" #optional
-displayURL="youtube.com/c/pumpkinbear111" #optional
-#logoFile="ValentinesDay.png" #optional
-credits="Thanks to Technovision's now deleted forge tutorials." #optional
-authors="PumpkinBear111" #optional
+modLoader="javafml"
+loaderVersion="[35,)"
+license="GNU General Public License v3.0"
+issueTrackerURL="https://github.com/PumpkinBear111/fvd/issues"
+[[mods]]
+modId="fvd"
+version="1.16.4 - 1.0"
+displayName="Forge Valentines Day"
+displayURL="https://youtube.com/c/pumpkinbear111"
+logoFile="logo.png"
+credits="Thanks to the following:
+Technovision for now deleted forge tutorials
+TurtyWurty for 1.15.2 and 1.16 tutorials.
+Blockbench for the awesome 3d MC modeling software
+Mojang for the game of Minecraft and also textures for my models.
+"
+authors="PumpkinBear111
+"
 description='''
-to be added later...
+This mod was made in 2021 for Valentines Day!
+
+Go to the youtube video for help:
+https://link
+
+Craft bouquets of flowers, give your friends valentines days cards with yummy lollipops!
 '''
