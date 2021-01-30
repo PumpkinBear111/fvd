@@ -9,7 +9,6 @@ public class blue_card extends Item {
     public blue_card() {
 
         super(new Item.Properties()
-
                 .group(ValentinesDay.TAB)
                 .food(new Food.Builder()
                         .hunger(6)

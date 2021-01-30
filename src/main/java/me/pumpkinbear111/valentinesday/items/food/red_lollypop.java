@@ -9,7 +9,6 @@ public class red_lollypop extends Item {
     public red_lollypop() {
 
         super(new Item.Properties()
-
                 .group(ValentinesDay.TAB)
                 .food(new Food.Builder()
                         .hunger(5)

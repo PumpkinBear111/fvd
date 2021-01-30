@@ -9,7 +9,6 @@ public class red_card extends Item {
     public red_card() {
 
         super(new Item.Properties()
-
                 .group(ValentinesDay.TAB)
                 .food(new Food.Builder()
                         .hunger(6)

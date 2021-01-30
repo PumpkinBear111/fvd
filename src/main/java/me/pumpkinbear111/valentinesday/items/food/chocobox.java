@@ -9,7 +9,6 @@ public class chocobox extends Item {
     public chocobox() {
 
         super(new Item.Properties()
-
                 .group(ValentinesDay.TAB)
                 .food(new Food.Builder()
                         .hunger(14)

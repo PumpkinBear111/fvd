@@ -2,7 +2,6 @@ package me.pumpkinbear111.valentinesday.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.HorizontalBlock;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.state.StateContainer;
@@ -14,7 +13,6 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IWorld;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -28,13 +26,13 @@ public class BaseHorizontalBlock extends Block {
         this.setDefaultState(this.stateContainer.getBaseState().with(HORIZONTAL_FACING, Direction.NORTH));
     }
 
-    @SuppressWarnings("deprication")
+    @SuppressWarnings("deprecation")
     @Override
     public BlockState mirror(BlockState state, Mirror mirrorIn) {
         return state.rotate(mirrorIn.toRotation(state.get((HORIZONTAL_FACING))));
     }
 
-    @SuppressWarnings("deprication")
+    @SuppressWarnings("deprecation")
     @Override
     public BlockState rotate(BlockState state, IWorld world, BlockPos pos, Rotation direction) {
         return state.with(HORIZONTAL_FACING, direction.rotate(state.get(HORIZONTAL_FACING)));
